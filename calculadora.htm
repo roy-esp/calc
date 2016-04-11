@@ -8,10 +8,15 @@ function cuadrado(){
 var num=document.getElementById("n1");
 num.value=num.value*num.value;
 }
+function saqrt(){
+var num=document.getElementById("n1");
+num.value=Math.sqrt(num.value);
+}
 </script>
 <body>
 Numero:
 <input type="text" id="n1" onclick=vaciar()">
 <button onclick="cuadrado()">x<sup>2</sup></button>
+<button onclick="saqrt()">sqrt(x)</button>
 </body>
 </html>
